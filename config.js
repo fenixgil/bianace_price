@@ -1,10 +1,12 @@
+var Y='2020';
+var ti='3m';
 module.exports = {
   /////////////////////////////////////////////////////////////////////////
-  symbol: 'BTCUSDT',
-  timeframe:'1m',
-  fromTS:'12/18/2019 12:23:13',//Format - mm/dd/yyyy hh:mm:ss;
-  toTS:'12/20/2019 12:23:13',//Format - mm/dd/yyyy hh:mm:ss;
-  fileName:'BTCUSDT_1m_data.csv',//Export to file name.csv
+  symbol: 'ETHBTC',
+  timeframe:ti,
+  fromTS:'01/01/'+Y+' 00:00:00',//Format - mm/dd/yyyy hh:mm:ss;
+  toTS:'12/31/'+Y+' 23:59:59',//Format - mm/dd/yyyy hh:mm:ss;
+  fileName:'ETHBTC_'+Y+'_'+ti+'_data.csv',//Export to file name.csv
   ///////////////////////////////////////////////////////////////////////////
   tfw:{
     '1m':1*60*1000,
