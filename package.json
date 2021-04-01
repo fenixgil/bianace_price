@@ -12,8 +12,11 @@
   "dependencies": {
     "bottleneck": "^2.19.5",
     "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
     "lodash": "^4.17.15",
+    "moment": "^2.29.1",
     "mongodb": "^3.6.5",
+    "node-moment": "^2.5.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.5"
   }
